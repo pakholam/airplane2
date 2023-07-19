@@ -1,0 +1,125 @@
+{
+  "ver": "2.3.4",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2a048090-8e4a-4f65-8572-29836afdf2c3",
+  "files": [],
+  "subMetas": {
+    "ec118": {
+      "importer": "gltf-mesh",
+      "uuid": "2a048090-8e4a-4f65-8572-29836afdf2c3@ec118",
+      "displayName": "",
+      "id": "ec118",
+      "name": "Mesh.128.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b02": {
+      "importer": "gltf-embeded-image",
+      "uuid": "2a048090-8e4a-4f65-8572-29836afdf2c3@48b02",
+      "displayName": "",
+      "id": "48b02",
+      "name": "base_color_texture.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "2a048090-8e4a-4f65-8572-29836afdf2c3@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2a048090-8e4a-4f65-8572-29836afdf2c3@48b02"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "85f4f": {
+      "importer": "gltf-material",
+      "uuid": "2a048090-8e4a-4f65-8572-29836afdf2c3@85f4f",
+      "displayName": "",
+      "id": "85f4f",
+      "name": "Spaceship_mat.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bc31f": {
+      "importer": "gltf-scene",
+      "uuid": "2a048090-8e4a-4f65-8572-29836afdf2c3@bc31f",
+      "displayName": "",
+      "id": "bc31f",
+      "name": "enemyPlane_03.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "2a048090-8e4a-4f65-8572-29836afdf2c3@48b02"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "2a048090-8e4a-4f65-8572-29836afdf2c3@bc31f",
+    "assetFinder": {
+      "meshes": [
+        "2a048090-8e4a-4f65-8572-29836afdf2c3@ec118"
+      ],
+      "skeletons": [],
+      "textures": [
+        "2a048090-8e4a-4f65-8572-29836afdf2c3@7d6ab"
+      ],
+      "materials": [
+        "2a048090-8e4a-4f65-8572-29836afdf2c3@85f4f"
+      ],
+      "scenes": [
+        "2a048090-8e4a-4f65-8572-29836afdf2c3@bc31f"
+      ]
+    }
+  }
+}
